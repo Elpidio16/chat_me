@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "app.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "env": {
+      "AZURE_OPENAI_KEY": "@azure_openai_key",
+      "API_VERSION": "@api_version",
+      "AZURE_OPENAI_ENDPOINT": "@azure_openai_endpoint",
+      "DEPLOYMENT_NAME": "@deployment_name"
+    }
+  }
+  
